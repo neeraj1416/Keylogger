@@ -11,9 +11,7 @@ in market, a software keylogger and a hardware keylogger among which software
 keylogger are widely used and are easy to plant and cause substantial damage.
 Keyloggers essentially performs two tasks that is guiding into client input
 stream to get keystrokes and moving the information to a distant area (mail).
-
-
-    The fundamental goal of keyloggers is to meddle in the chain of occasions that
+The fundamental goal of keyloggers is to meddle in the chain of occasions that
 happen when a key is squeezed and when the information is shown on the screen
 because of a keystroke. Keylogger can be used for legitimate as well as
 illegitimate purposes, it basically depends on user who is using it. System
